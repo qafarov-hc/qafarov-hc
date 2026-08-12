@@ -1,1 +1,654 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="profile-title profile-description">
 
+  <title id="profile-title">
+    Hektor Qafarov — Middle Full-Stack Developer
+  </title>
+
+  <desc id="profile-description">
+    Profile of Hektor Qafarov, his full-stack technology experience,
+    and his main SaaS product, CandidLyzer.
+  </desc>
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FAF6FA"/>
+      <stop offset="48%" stop-color="#F2EAF5"/>
+      <stop offset="100%" stop-color="#E8DBF0"/>
+    </linearGradient>
+
+<radialGradient id="purple-glow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#C084FC" stop-opacity=".38"/>
+  <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="blue-glow" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" stop-color="#93C5FD" stop-opacity=".25"/>
+  <stop offset="100%" stop-color="#93C5FD" stop-opacity="0"/>
+</radialGradient>
+
+<linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#7C3AED"/>
+  <stop offset="52%" stop-color="#A855F7"/>
+  <stop offset="100%" stop-color="#D8B4FE"/>
+</linearGradient>
+
+<linearGradient id="project-card" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#1C1720"/>
+  <stop offset="100%" stop-color="#0D0D0F"/>
+</linearGradient>
+
+<linearGradient id="dark-signal-card" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#34233E"/>
+  <stop offset="100%" stop-color="#17131A"/>
+</linearGradient>
+
+<!-- Shadows -->
+<filter id="large-shadow" x="-20%" y="-20%" width="140%" height="165%">
+  <feDropShadow
+    dx="0"
+    dy="24"
+    stdDeviation="26"
+    flood-color="#533060"
+    flood-opacity=".15"
+  />
+</filter>
+
+<filter id="small-shadow" x="-30%" y="-30%" width="160%" height="180%">
+  <feDropShadow
+    dx="0"
+    dy="12"
+    stdDeviation="14"
+    flood-color="#4C1D5F"
+    flood-opacity=".14"
+  />
+</filter>
+
+<!-- Prevents stack content from escaping the main container -->
+<clipPath id="stack-clip">
+  <rect x="0" y="0" width="1080" height="390" rx="32"/>
+</clipPath>
+
+<style>
+  .sans {
+    font-family:
+      "Plus Jakarta Sans",
+      "DM Sans",
+      Inter,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+  }
+
+  .mono {
+    font-family:
+      "SFMono-Regular",
+      Consolas,
+      "Liberation Mono",
+      monospace;
+  }
+
+  .eyebrow {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px;
+  }
+
+  .hero-name {
+    font-size: 78px;
+    font-weight: 780;
+    letter-spacing: -4px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: 760;
+    letter-spacing: -1.5px;
+  }
+
+  .category-title {
+    font-size: 13px;
+    font-weight: 850;
+    letter-spacing: 1.6px;
+  }
+
+  .body {
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .small {
+    font-size: 15px;
+    font-weight: 650;
+  }
+
+  .chip {
+    font-size: 14px;
+    font-weight: 720;
+  }
+</style>
+
+  </defs>
+
+  <!-- Main background -->
+
+  <rect width="1200" height="1500" rx="44" fill="url(#background)"/>
+
+  <!-- Atmospheric gradients -->
+
+  <circle cx="80" cy="170" r="300" fill="url(#purple-glow)"/>
+  <circle cx="1110" cy="560" r="350" fill="url(#blue-glow)"/>
+  <circle cx="1030" cy="1380" r="350" fill="url(#purple-glow)"/>
+
+  <!-- Subtle separators -->
+
+  <g opacity=".14" stroke="#6B4B75" stroke-width="1">
+    <path d="M60 342H1140"/>
+    <path d="M60 648H1140"/>
+    <path d="M60 1060H1140"/>
+  </g>
+
+  <!-- Hero -->
+
+  <g class="sans">
+    <text x="70" y="102" class="eyebrow" fill="#786D7A">
+      FULL-STACK PRODUCT ENGINEER
+    </text>
+
+<text x="66" y="195" class="hero-name" fill="#0E0D0F">
+  Hektor Qafarov
+</text>
+
+<text
+  x="70"
+  y="252"
+  font-size="29"
+  font-weight="650"
+  letter-spacing="-.8"
+  fill="#6E626F"
+>
+  Middle Full-Stack Developer
+</text>
+
+<rect
+  x="70"
+  y="292"
+  width="380"
+  height="5"
+  rx="2.5"
+  fill="url(#accent-line)"
+/>
+
+<text x="70" y="354" class="body" fill="#4D454F">
+  <tspan x="70" dy="0">
+    I design and build production SaaS products from interface
+  </tspan>
+  <tspan x="70" dy="31">
+    to infrastructure — with a focus on clear user experience,
+  </tspan>
+  <tspan x="70" dy="31">
+    secure backend systems, analytics, and reliable billing.
+  </tspan>
+</text>
+
+<!-- Website button -->
+<g transform="translate(70 482)">
+  <rect width="245" height="52" rx="26" fill="#111013"/>
+
+  <text x="25" y="33" class="small" fill="#FFFFFF">
+    candidlyzer.com
+  </text>
+
+  <path
+    d="M210 18L221 26L210 34M220 26H200"
+    fill="none"
+    stroke="#D8B4FE"
+    stroke-width="2.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</g>
+
+<!-- Email button -->
+<g transform="translate(330 482)">
+  <rect
+    width="255"
+    height="52"
+    rx="26"
+    fill="#FFFFFF"
+    fill-opacity=".65"
+  />
+
+  <rect
+    x=".5"
+    y=".5"
+    width="254"
+    height="51"
+    rx="25.5"
+    fill="none"
+    stroke="#2A212D"
+    stroke-opacity=".14"
+  />
+
+  <text x="24" y="33" class="small" fill="#2B252D">
+    qafarov.dev@gmail.com
+  </text>
+</g>
+
+<!-- Focus cards -->
+<g transform="translate(695 468)" filter="url(#small-shadow)">
+  <rect
+    width="180"
+    height="80"
+    rx="22"
+    fill="#FFFFFF"
+    fill-opacity=".70"
+  />
+
+  <text x="20" y="31" class="category-title" fill="#8A7B8D">
+    PRODUCT
+  </text>
+
+  <text x="20" y="58" class="small" fill="#201B21">
+    SaaS engineering
+  </text>
+</g>
+
+<g transform="translate(890 468)" filter="url(#small-shadow)">
+  <rect
+    width="230"
+    height="80"
+    rx="22"
+    fill="#FFFFFF"
+    fill-opacity=".70"
+  />
+
+  <text x="20" y="31" class="category-title" fill="#8A7B8D">
+    SPECIALIZATION
+  </text>
+
+  <text x="20" y="58" class="small" fill="#201B21">
+    Full-stack systems
+  </text>
+</g>
+
+  </g>
+
+  <!-- Technology stack -->
+
+  <g transform="translate(60 620)" class="sans">
+    <rect
+      width="1080"
+      height="390"
+      rx="32"
+      fill="#FFFFFF"
+      fill-opacity=".62"
+      filter="url(#large-shadow)"
+    />
+
+<rect
+  x=".75"
+  y=".75"
+  width="1078.5"
+  height="388.5"
+  rx="31.25"
+  fill="none"
+  stroke="#2B222E"
+  stroke-opacity=".14"
+  stroke-width="1.5"
+/>
+
+<g clip-path="url(#stack-clip)">
+  <text x="30" y="43" class="eyebrow" fill="#847887">
+    TECHNOLOGY STACK
+  </text>
+
+  <text x="30" y="85" class="section-title" fill="#111013">
+    From interface to production
+  </text>
+
+  <!-- Frontend category -->
+  <g transform="translate(30 116)">
+    <rect
+      width="320"
+      height="244"
+      rx="23"
+      fill="#FAF7FB"
+      fill-opacity=".94"
+      stroke="#2B222E"
+      stroke-opacity=".11"
+    />
+
+    <circle cx="25" cy="29" r="5" fill="#A855F7"/>
+
+    <text x="40" y="34" class="category-title" fill="#756B77">
+      FRONTEND
+    </text>
+
+    <rect x="20" y="55" width="90" height="38" rx="13" fill="#E9D5FF"/>
+    <text x="39" y="80" class="chip" fill="#5B218A">React</text>
+
+    <rect x="120" y="55" width="140" height="38" rx="13" fill="#E6EFFF"/>
+    <text x="137" y="80" class="chip" fill="#275899">TypeScript</text>
+
+    <rect x="20" y="103" width="76" height="38" rx="13" fill="#F0E7F4"/>
+    <text x="38" y="128" class="chip" fill="#594B5F">Vite</text>
+
+    <rect x="106" y="103" width="148" height="38" rx="13" fill="#F0E7F4"/>
+    <text x="123" y="128" class="chip" fill="#594B5F">
+      React Router
+    </text>
+
+    <rect x="20" y="151" width="150" height="38" rx="13" fill="#F0E7F4"/>
+    <text x="37" y="176" class="chip" fill="#594B5F">
+      Framer Motion
+    </text>
+
+    <rect x="180" y="151" width="82" height="38" rx="13" fill="#F0E7F4"/>
+    <text x="199" y="176" class="chip" fill="#594B5F">
+      Lenis
+    </text>
+
+    <rect x="20" y="199" width="92" height="30" rx="11" fill="#EEE8F0"/>
+    <text x="38" y="220" font-size="12" font-weight="700" fill="#695E6C">
+      Vitest
+    </text>
+
+    <rect x="122" y="199" width="114" height="30" rx="11" fill="#EEE8F0"/>
+    <text x="139" y="220" font-size="12" font-weight="700" fill="#695E6C">
+      Playwright
+    </text>
+  </g>
+
+  <!-- Backend and data category -->
+  <g transform="translate(380 116)">
+    <rect
+      width="320"
+      height="244"
+      rx="23"
+      fill="#FAF7FB"
+      fill-opacity=".94"
+      stroke="#2B222E"
+      stroke-opacity=".11"
+    />
+
+    <circle cx="25" cy="29" r="5" fill="#3BA79D"/>
+
+    <text x="40" y="34" class="category-title" fill="#756B77">
+      BACKEND &amp; DATA
+    </text>
+
+    <rect x="20" y="55" width="70" height="38" rx="13" fill="#DDF4F2"/>
+    <text x="43" y="80" class="chip" fill="#176B65">Go</text>
+
+    <rect x="100" y="55" width="78" height="38" rx="13" fill="#F5E7DE"/>
+    <text x="119" y="80" class="chip" fill="#914A22">Rust</text>
+
+    <rect x="188" y="55" width="112" height="38" rx="13" fill="#E5EEFB"/>
+    <text x="201" y="80" class="chip" fill="#345D91">
+      PostgreSQL
+    </text>
+
+    <rect x="20" y="103" width="84" height="38" rx="13" fill="#FFE5E5"/>
+    <text x="39" y="128" class="chip" fill="#A93434">Redis</text>
+
+    <rect x="114" y="103" width="84" height="38" rx="13" fill="#EDF1F5"/>
+    <text x="132" y="128" class="chip" fill="#465563">Axum</text>
+
+    <rect x="208" y="103" width="82" height="38" rx="13" fill="#EDF1F5"/>
+    <text x="226" y="128" class="chip" fill="#465563">Tokio</text>
+
+    <rect x="20" y="151" width="96" height="38" rx="13" fill="#E8EEF4"/>
+    <text x="38" y="176" class="chip" fill="#42596C">
+      REST API
+    </text>
+
+    <rect x="126" y="151" width="94" height="38" rx="13" fill="#E8EEF4"/>
+    <text x="144" y="176" class="chip" fill="#42596C">
+      OAuth 2
+    </text>
+
+    <rect x="230" y="151" width="70" height="38" rx="13" fill="#E8EEF4"/>
+    <text x="249" y="176" class="chip" fill="#42596C">
+      JWT
+    </text>
+
+    <rect x="20" y="199" width="104" height="30" rx="11" fill="#EEE8F0"/>
+    <text x="37" y="220" font-size="12" font-weight="700" fill="#695E6C">
+      Webhooks
+    </text>
+
+    <rect x="134" y="199" width="128" height="30" rx="11" fill="#EEE8F0"/>
+    <text x="151" y="220" font-size="12" font-weight="700" fill="#695E6C">
+      Rate limiting
+    </text>
+  </g>
+
+  <!-- Platform and infrastructure category -->
+  <g transform="translate(730 116)">
+    <rect
+      width="320"
+      height="244"
+      rx="23"
+      fill="#FAF7FB"
+      fill-opacity=".94"
+      stroke="#2B222E"
+      stroke-opacity=".11"
+    />
+
+    <circle cx="25" cy="29" r="5" fill="#F59E0B"/>
+
+    <text x="40" y="34" class="category-title" fill="#756B77">
+      PLATFORM &amp; INFRASTRUCTURE
+    </text>
+
+    <rect x="20" y="55" width="84" height="38" rx="13" fill="#EAE6FF"/>
+    <text x="38" y="80" class="chip" fill="#5540A0">Stripe</text>
+
+    <rect x="114" y="55" width="92" height="38" rx="13" fill="#E8F7EF"/>
+    <text x="131" y="80" class="chip" fill="#28704B">OpenAI</text>
+
+    <rect x="216" y="55" width="84" height="38" rx="13" fill="#F7E9EE"/>
+    <text x="231" y="80" class="chip" fill="#8F4059">Resend</text>
+
+    <rect x="20" y="103" width="94" height="38" rx="13" fill="#F5EBDD"/>
+    <text x="37" y="128" class="chip" fill="#84581F">
+      Railway
+    </text>
+
+    <rect x="124" y="103" width="116" height="38" rx="13" fill="#FFF0D9"/>
+    <text x="140" y="128" class="chip" fill="#925B13">
+      Cloudflare
+    </text>
+
+    <rect x="20" y="151" width="88" height="38" rx="13" fill="#E8EEF4"/>
+    <text x="37" y="176" class="chip" fill="#42596C">
+      Docker
+    </text>
+
+    <rect x="118" y="151" width="156" height="38" rx="13" fill="#ECECF0"/>
+    <text x="134" y="176" class="chip" fill="#46464E">
+      GitHub Actions
+    </text>
+
+    <rect x="20" y="199" width="122" height="30" rx="11" fill="#EEE8F0"/>
+    <text x="37" y="220" font-size="12" font-weight="700" fill="#695E6C">
+      Google OAuth
+    </text>
+
+    <rect x="152" y="199" width="100" height="30" rx="11" fill="#EEE8F0"/>
+    <text x="170" y="220" font-size="12" font-weight="700" fill="#695E6C">
+      CI / CD
+    </text>
+  </g>
+</g>
+
+  </g>
+
+  <!-- Main project -->
+
+  <g transform="translate(60 1060)" class="sans">
+    <rect
+      width="1080"
+      height="360"
+      rx="34"
+      fill="url(#project-card)"
+      filter="url(#large-shadow)"
+    />
+
+<rect
+  x=".75"
+  y=".75"
+  width="1078.5"
+  height="358.5"
+  rx="33.25"
+  fill="none"
+  stroke="#C084FC"
+  stroke-opacity=".34"
+  stroke-width="1.5"
+/>
+
+<circle
+  cx="930"
+  cy="74"
+  r="190"
+  fill="url(#purple-glow)"
+  opacity=".8"
+/>
+
+<text x="40" y="48" class="eyebrow" fill="#B5A9B8">
+  MAIN PROJECT
+</text>
+
+<text
+  x="38"
+  y="105"
+  font-size="46"
+  font-weight="780"
+  letter-spacing="-2.2"
+  fill="#FFFFFF"
+>
+  CandidLyzer
+</text>
+
+<text x="38" y="143" class="body" fill="#C8BEC9">
+  Job application tracking and career analytics for tech job seekers.
+</text>
+
+<text x="38" y="190" class="body" fill="#8F8791">
+  <tspan x="38" dy="0">
+    A production SaaS that turns application records into funnel analytics,
+  </tspan>
+  <tspan x="38" dy="30">
+    source comparisons, forecasts, diagnostics, and practical AI coaching.
+  </tspan>
+  <tspan x="38" dy="30">
+    Built with secure authentication, Stripe subscriptions, resilient webhooks,
+  </tspan>
+  <tspan x="38" dy="30">
+    distributed rate limiting, job parsing, email delivery, and browser E2E.
+  </tspan>
+</text>
+
+<!-- Product signal cards -->
+<g transform="translate(755 78)" filter="url(#small-shadow)">
+  <rect width="270" height="72" rx="20" fill="#FAF8FB"/>
+
+  <rect x="18" y="15" width="64" height="22" rx="11" fill="#DCFCE7"/>
+
+  <text
+    x="32"
+    y="30"
+    font-size="10"
+    font-weight="900"
+    fill="#15803D"
+  >
+    OFFER
+  </text>
+
+  <text x="18" y="56" class="small" fill="#161217">
+    Your funnel, made visible.
+  </text>
+</g>
+
+<g transform="translate(790 166)" filter="url(#small-shadow)">
+  <rect width="250" height="72" rx="20" fill="#FAF8FB"/>
+
+  <rect x="18" y="15" width="70" height="22" rx="11" fill="#DBEAFE"/>
+
+  <text
+    x="31"
+    y="30"
+    font-size="10"
+    font-weight="900"
+    fill="#2563EB"
+  >
+    ACTIVITY
+  </text>
+
+  <text x="18" y="56" class="small" fill="#161217">
+    From tracking to action.
+  </text>
+</g>
+
+<g transform="translate(730 254)" filter="url(#small-shadow)">
+  <rect width="282" height="72" rx="20" fill="url(#dark-signal-card)"/>
+
+  <rect x="18" y="15" width="64" height="22" rx="11" fill="#E9D5FF"/>
+
+  <text
+    x="30"
+    y="30"
+    font-size="10"
+    font-weight="900"
+    fill="#7E22CE"
+  >
+    FUNNEL
+  </text>
+
+  <text x="18" y="56" class="small" fill="#F4EDF5">
+    Better signals. Better next moves.
+  </text>
+</g>
+
+<!-- Live indicator -->
+<g transform="translate(38 309)">
+  <circle cx="8" cy="8" r="8" fill="#A855F7"/>
+
+  <circle
+    cx="8"
+    cy="8"
+    r="14"
+    fill="none"
+    stroke="#A855F7"
+    stroke-opacity=".25"
+  />
+
+  <text x="28" y="14" class="small" fill="#D8B4FE">
+    LIVE AT CANDIDLYZER.COM
+  </text>
+</g>
+
+  </g>
+
+  <!-- Footer -->
+
+  <g class="sans">
+    <text x="60" y="1460" class="small" fill="#786D7A">
+      Building thoughtful products where engineering, design, and real user problems meet.
+    </text>
+
+<text
+  x="1140"
+  y="1460"
+  text-anchor="end"
+  class="mono"
+  font-size="13"
+  fill="#8A7C8E"
+>
+  github.com/qafarov-hc
+</text>
+
+  </g>
+</svg>
